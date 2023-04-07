@@ -21,4 +21,16 @@ function calculateServicePrice(event){
                 break;
     }
 
+    let selctedHours = document.getElementById("hoursRequested").value;
+    selctedHours = parseInt(selctedHours);
+    
+    let workPrice = selctedHours * selectedTypeWork;
+    workPrice = parseFloat(workPrice);
+    
+    
+    let disocuntCode = document.getElementById("coupon").value;
+    
+
+
+
 }
